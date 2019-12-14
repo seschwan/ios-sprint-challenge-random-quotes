@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15702" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchOS" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Label" textAlignment="left" numberOfLines="0" minimumScaleFactor="0.29999999999999999" id="fKk-eR-t1R"/>
+                        <label alignment="left" text="Label" textAlignment="left" numberOfLines="0" minimumScaleFactor="0.0" id="Qct-Db-lQv">
+                            <color key="textColor" red="0.33651234229999999" green="0.65250724859999998" blue="0.34577878810000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="authorLblWatch" destination="Qct-Db-lQv" id="g3c-3g-AXh"/>
+                        <outlet property="quoteLblWatch" destination="fKk-eR-t1R" id="hFK-dI-mur"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+    </scenes>
+</document>
